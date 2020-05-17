@@ -8,3 +8,13 @@
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 0.290034, 0, -0.957016, 0, 1, 0, 0.957016, 0, 0.290034, -11.1331, 4.93942, 6.34231 )
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.95728, 8.31696, 0 )
+light_energy = 1.5
+omni_range = 50.0
+
+[node name="OmniLight2" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.0007, 8.31696, 0 )
+light_energy = 1.5
+omni_range = 50.0
